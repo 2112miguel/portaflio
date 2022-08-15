@@ -11,14 +11,14 @@ export const Card = ({ title, url, urlImg, urlGithub }) => {
         <div className="d-flex m-2">
           <button
             type="button"
-            class="btn btn-outline-primary"
+            className="btn btn-outline-primary"
             onClick={() => (location.href = url)}
           >
             Online
           </button>
           <button
             type="button"
-            class="btn btn-outline-secondary ms-3"
+            className="btn btn-outline-secondary ms-3"
             onClick={() => (location.href = urlGithub)}
           >
             Github
