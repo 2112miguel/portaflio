@@ -3,7 +3,7 @@ export const Card = ({ title, url, urlImg, urlGithub }) => {
     <section className="card bg-blue p-3 my-3">
       <article className="card-body">
         <div className="img-area mb-4">
-          <img src={urlImg} alt="img-fluid" className="" />
+          <Image src={urlImg} alt="img-fluid" className="" />
         </div>
         <div className="my-3 mx-2">
           <h3>{title}</h3>

@@ -7,25 +7,25 @@ export const Skills = () => {
         </div>
         <div className="row">
           <div className="col ">
-            <img
+            <Image
               src="../../node.png
             "
             />
           </div>
           <div className="col">
-            <img
+            <Image
               src="../../sass.png
             "
             />
           </div>
           <div className="col">
-            <img
+            <Image
               src="../../react.png
             "
             />
           </div>
           <div className="col">
-            <img
+            <Image
               src="../../javascript.png
             "
             />

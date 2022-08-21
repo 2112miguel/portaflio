@@ -4,7 +4,7 @@ export const About = () => {
       <div className="container">
         <div className="row">
           <div className="col-md-5 text-center">
-            <img src="../../profile.png" className="img-circle" />
+            <Image src="../../profile.png" className="img-circle" />
           </div>
           <article className="col-md-7">
             <h1 className="fw-bold">About</h1>
