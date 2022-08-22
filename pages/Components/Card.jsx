@@ -1,9 +1,19 @@
+import Image from "next/image";
+
 export const Card = ({ title, url, urlImg, urlGithub }) => {
   return (
     <section className="card bg-blue p-3 my-3">
       <article className="card-body">
         <div className="img-area mb-4">
-          <Image src={urlImg} alt="img-fluid" className="" />
+          <Image
+            src={urlImg}
+            style={{ cursor: "pointer" }}
+            width={2400}
+            height={1598}
+            layout="responsive"
+            className="card-img-top"
+            onClick={() => window.open(url, "_blank", "noopener,noreferrer")}
+          />
         </div>
         <div className="my-3 mx-2">
           <h3>{title}</h3>
