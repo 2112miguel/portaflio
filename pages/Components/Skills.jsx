@@ -14,22 +14,22 @@ export const Skills = () => {
             <div>
               <h3>Front End</h3>
             </div>
-            <div ClassName="row row-cols-2 ">
-              <div ClassName="col p-4">
-                <i ClassName="bi bi-patch-check-fill mx-3"></i>React
+            <div className="row row-cols-2 ">
+              <div className="col p-4">
+                <i className="bi bi-patch-check-fill mx-3"></i>React
               </div>
-              <div ClassName="col p-4">HTML</div>
-              <div ClassName="col p-4">CSS</div>
-              <div ClassName="col p-4">SASS</div>
+              <div className="col p-4">HTML</div>
+              <div className="col p-4">CSS</div>
+              <div className="col p-4">SASS</div>
             </div>
           </section>
           <section className="col-sm-6 col-9 col-lg-4 p-5 rounded mx-5 text-center">
             <h3>Back End End</h3>
-            <div ClassName="row row-cols-2 ">
-              <div ClassName="col p-4">Node Js</div>
-              <div ClassName="col p-4">C#</div>
-              <div ClassName="col p-4">MongoDb</div>
-              <div ClassName="col p-4">Sql</div>
+            <div className="row row-cols-2 ">
+              <div className="col p-4">Node Js</div>
+              <div className="col p-4">C#</div>
+              <div className="col p-4">MongoDb</div>
+              <div className="col p-4">Sql</div>
             </div>
           </section>
         </article>
