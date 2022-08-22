@@ -29,10 +29,11 @@ export const Main = () => {
           <h1>Projects</h1>
         </div>
         <div className="row">
-          {data.map((card) => {
+          {data.map((card, index) => {
             return (
               <div className="col-12 col-md-7 col-lg-4">
                 <Card
+                  key={index}
                   title={card.title}
                   urlImg={card.urlImg}
                   url={card.url}
