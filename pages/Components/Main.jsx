@@ -31,7 +31,7 @@ export const Main = () => {
         <div className="row">
           {data.map((card, index) => {
             return (
-              <div className="col-12 col-md-7 col-lg-4">
+              <div className="col-12 col-md-7 col-lg-4" key={index}>
                 <Card
                   key={index}
                   title={card.title}
