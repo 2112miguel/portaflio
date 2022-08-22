@@ -1,9 +1,9 @@
 import Head from "next/head";
-import Header from "./Components/Header";
-import { About } from "./Components/About";
-import { Main } from "./Components/Main";
-import { Skills } from "./Components/Skills";
-import { Navbar } from "./Components/Navbar";
+import Header from "../Components/Header";
+import { About } from "../Components/About";
+import { Main } from "../Components/Main";
+import { Skills } from "../Components/Skills";
+import { Navbar } from "../Components/Navbar";
 export default function Home() {
   return (
     <div>

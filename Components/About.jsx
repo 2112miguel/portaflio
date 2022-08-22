@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Styles from "../../styles/Home.module.css";
+
 export const About = () => {
   return (
     <section className="row py-5" id="about">
