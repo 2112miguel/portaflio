@@ -1,6 +1,13 @@
 import Image from "next/image";
 
-const skills = [];
+const skills = [
+  {
+    frontEnd: ["React", "HTML", "CSS", "Sass"],
+  },
+  {
+    backEnd: ["Node Js", "C# ASP.NET", "MongoDB", "SQL"],
+  },
+];
 
 export const Skills = () => {
   return (
@@ -15,21 +22,31 @@ export const Skills = () => {
               <h3>Front End</h3>
             </div>
             <div className="row row-cols-2 ">
-              <div className="col p-4">
-                <i className="bi bi-patch-check-fill mx-3"></i>React
-              </div>
-              <div className="col p-4">HTML</div>
-              <div className="col p-4">CSS</div>
-              <div className="col p-4">SASS</div>
+              {skills[0].frontEnd.map((skill) => {
+                return (
+                  <div className="d-flex p-4">
+                    <div>
+                      <i className="bi bi-patch-check-fill mx-3"></i>
+                    </div>
+                    <div>{skill}</div>
+                  </div>
+                );
+              })}
             </div>
           </section>
           <section className="col-sm-6 col-9 col-lg-4 p-5 rounded mx-5 text-center">
             <h3>Back End End</h3>
             <div className="row row-cols-2 ">
-              <div className="col p-4">Node Js</div>
-              <div className="col p-4">C#</div>
-              <div className="col p-4">MongoDb</div>
-              <div className="col p-4">Sql</div>
+              {skills[1].backEnd.map((skill) => {
+                return (
+                  <div className="d-flex p-4">
+                    <div>
+                      <i className="bi bi-patch-check-fill mx-3"></i>
+                    </div>
+                    <div>{skill}</div>
+                  </div>
+                );
+              })}
             </div>
           </section>
         </article>
