@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="Navbar">
       <div className="container">
         <a className="navbar-brand" href="#">
           Portafolio

@@ -62,3 +62,11 @@ body {
 .ul-style {
   list-style-type: none;
 }
+
+#Navbar {
+  padding: 15px 0;
+  z-index: 10;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  background-color: black;
+}
