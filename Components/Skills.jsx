@@ -34,7 +34,7 @@ export const Skills = () => {
               })}
             </div>
           </section>
-          <section className="col-sm-6 col-9 col-lg-4 p-5 rounded mx-5 text-center">
+          <section className="col-sm-6 col-12 col-lg-4 p-5 rounded mx-5 text-center">
             <h3>Back End End</h3>
             <div className="row row-cols-2 ">
               {skills[1].backEnd.map((skill) => {
