@@ -2,7 +2,7 @@ body {
   color: white;
   font: Inconsolata, monospace;
   text-shadow: 0 0 5px #c8c8c8;
-  background-color: #01172f;
+  /* background-color: #01172f; */
   min-height: 100vh;
   background-color: black;
   background-image: radial-gradient(
@@ -29,7 +29,7 @@ body {
 }
 
 .bg-blue {
-  background-color: #07305c;
+  background-color: #080808;
 }
 
 .img-circle {
