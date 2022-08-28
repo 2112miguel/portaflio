@@ -1,11 +1,17 @@
 export default function Header() {
   return (
-    <header className="">
+    <header className="m-5 p-5">
       <section className="container">
-        <div className="title fw-bold">
-          Miguel Angel
+        <div className=" ">
+          Name: Miguel Angel
           <br />
-          Web developer Full Stack
+          Title: Web developer Full Stack
+          <br />
+          Github: 2112miguel
+          <br />
+          Linkedin: miguelanmorenocontreras
+          <br />
+          Email: miguel.moreno.angel@gmail.com
         </div>
       </section>
     </header>

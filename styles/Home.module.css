@@ -4,6 +4,15 @@
   min-height: 100vh;
 }
 
+header {
+  height: 500px;
+  background-color: black;
+}
+
+.bg-black {
+  background-color: black;
+}
+
 .bg-card {
   background-color: #07305c;
   border-color: aliceblue;
