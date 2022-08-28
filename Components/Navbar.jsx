@@ -25,6 +25,15 @@ export const Navbar = () => {
               <a
                 className="nav-link text-white"
                 aria-current="page"
+                href="#home"
+              >
+                Home
+              </a>
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link text-white"
+                aria-current="page"
                 href="#about"
               >
                 About

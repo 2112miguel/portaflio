@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className="my-5 py-5">
+    <header className="my-5 py-5" id="home">
       <section className="container ">
         <div className="row ">
           <ul className="ul-style fs-4">
