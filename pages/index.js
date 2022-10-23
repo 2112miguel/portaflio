@@ -26,8 +26,8 @@ export default function Home() {
         <br />
         <Main />
       </main>
-      <footer>
-        <h4>Hecho por mi</h4>
+      <footer className="d-flex justify-content-center m-5">
+        <h4>Miguel Angel</h4>
       </footer>
     </div>
   );
