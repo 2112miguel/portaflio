@@ -26,7 +26,7 @@ export default function Home() {
         <br />
         <Main />
       </main>
-      <footer className="d-flex justify-content-center m-5">
+      <footer className="container">
         <h4>Miguel Angel</h4>
       </footer>
     </div>

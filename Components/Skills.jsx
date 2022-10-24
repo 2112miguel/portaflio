@@ -11,13 +11,13 @@ const skills = [
 
 export const Skills = () => {
   return (
-    <section className="row py-5" id="skills">
+    <section className="py-5" id="skills">
       <div className="row my-5 text-center">
         <h1>Skills</h1>
       </div>
       <div className="container ">
         <article className="row row-cols-2 justify-content-center">
-          <section className="col-sm-6 col-9 col-lg-4 p-5 rounded mx-5 text-center">
+          <section className="col-sm-6 col-8 col-lg-4 p-5 rounded mx-5 text-center">
             <div>
               <h3>Front End</h3>
             </div>
@@ -34,7 +34,7 @@ export const Skills = () => {
               })}
             </div>
           </section>
-          <section className="col-sm-6 col-12 col-lg-4 p-5 rounded mx-5 text-center">
+          <section className="col-sm-6 col-9 col-lg-4 p-5 rounded mx-4 text-center">
             <div>
               <h3>Back End End</h3>
             </div>

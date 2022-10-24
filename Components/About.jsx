@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const About = () => {
   return (
-    <section className="row py-5" id="about">
+    <section className="py-5" id="about">
       <div className="container pt-3">
         <div className="row justify-content-center align-items-center">
           <div className="col-md-5 text-center">
@@ -13,7 +13,7 @@ export const About = () => {
               className="rounded-circle"
             />
           </div>
-          <article className="col-md-5">
+          <article className="col-md-5 col-10">
             <h1 className="fw-bold"> {">"} About</h1>
             <p>
               {">"} Hi I&apos;m Miguel, Experienced web developer whith 2 years
