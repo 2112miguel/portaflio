@@ -5,7 +5,7 @@ const skills = [
     frontEnd: ["React", "HTML", "CSS", "Sass"],
   },
   {
-    backEnd: ["Node Js", "C# ASP.NET", "MongoDB", "SQL"],
+    backEnd: ["Node Js", "C# .NET", "MongoDB", "SQL Server"],
   },
 ];
 
@@ -26,7 +26,7 @@ export const Skills = () => {
                 return (
                   <div className="d-flex p-4">
                     <div>
-                      <i className="bi bi-patch-check-fill mx-3"></i>
+                      <i className="bi bi-patch-check-fill mx-2"></i>
                     </div>
                     <div>{skill}</div>
                   </div>
@@ -35,13 +35,15 @@ export const Skills = () => {
             </div>
           </section>
           <section className="col-sm-6 col-12 col-lg-4 p-5 rounded mx-5 text-center">
-            <h3>Back End End</h3>
+            <div>
+              <h3>Back End End</h3>
+            </div>
             <div className="row row-cols-2 ">
               {skills[1].backEnd.map((skill) => {
                 return (
                   <div className="d-flex p-4">
                     <div>
-                      <i className="bi bi-patch-check-fill mx-3"></i>
+                      <i className="bi bi-patch-check-fill mx-2"></i>
                     </div>
                     <div>{skill}</div>
                   </div>
