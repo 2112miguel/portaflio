@@ -1,4 +1,12 @@
-//import "./Terminal.css";
+import Typewriter from "typewriter-effect";
+
+const data = [
+  "> portafolio@name:~$ Miguel Angel",
+  "> portafolio@title:~$ Full Stack Developer",
+  "> portafolio@github:~$ 2112miguel",
+  "> portafolio@linkedin:~$ miguelanmorenocontreras",
+  "> portafolio@email:~$ miguel.moreno.angel@gmail.com",
+];
 
 export const Terminal = () => {
   return (
@@ -8,12 +16,79 @@ export const Terminal = () => {
           <p>miguel@portafolio</p>
         </header>
         <article className="consolebody">
-          <p>{">"} portafolio@name:~$ Miguel Angel</p>
-          <p>{">"} portafolio@title:~$ Full Stack Developer</p>
-          <p>{">"} portafolio@github:~$ 2112miguel</p>
-          <p>{">"} portafolio@linkedin:~$ miguelanmorenocontreras</p>
-          <p>{">"} portafolio@email:~$ miguel.moreno.angel@gmail.com</p>
-          <p>{">"} </p>
+          <div className="my-2">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString("> portafolio@name:~$ Miguel Angel")
+                  .changeDelay(1)
+                  .start();
+              }}
+              options={{
+                delay: 50,
+              }}
+            />
+          </div>
+          <div className="my-2">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(3500)
+                  .typeString("> portafolio@title:~$ Full Stack Developer")
+                  .changeDelay(1)
+                  .start();
+              }}
+              options={{
+                delay: 50,
+              }}
+            />
+          </div>
+          <div className="my-2">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(7000)
+                  .typeString("> portafolio@github:~$ 2112miguel")
+                  .changeDelay(1)
+                  .start();
+              }}
+              options={{
+                delay: 50,
+              }}
+            />
+          </div>
+          <div className="my-2">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(10350)
+                  .typeString(
+                    "> portafolio@linkedin:~$ miguelanmorenocontreras"
+                  )
+                  .changeDelay(1)
+                  .start();
+              }}
+              options={{
+                delay: 50,
+              }}
+            />
+          </div>
+          <div className="my-2">
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter
+                  .pauseFor(14000)
+                  .typeString(
+                    "> portafolio@email:~$ miguel.moreno.angel@gmail.com"
+                  )
+                  .changeDelay(1)
+                  .start();
+              }}
+              options={{
+                delay: 50,
+              }}
+            />
+          </div>
         </article>
       </div>
     </section>
