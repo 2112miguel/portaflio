@@ -12,7 +12,7 @@ const skills = [
 export const Skills = () => {
   return (
     <section className="py-5" id="skills">
-      <div className="row my-5 text-center">
+      <div className="my-5 text-center">
         <h1>Skills</h1>
       </div>
       <div className="container ">
