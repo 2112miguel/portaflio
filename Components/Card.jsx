@@ -21,14 +21,14 @@ export const Card = ({ title, url, urlImg, urlGithub }) => {
         <div className="d-flex m-2">
           <button
             type="button"
-            className="btn btn-outline-primary"
+            className="btn bg-btn-primary"
             onClick={() => window.open(url, "_blank", "noopener,noreferrer")}
           >
             Online
           </button>
           <button
             type="button"
-            className="btn btn-outline-secondary ms-3"
+            className="btn bg-btn-primary ms-3"
             onClick={() =>
               window.open(urlGithub, "_blank", "noopener,noreferrer")
             }

@@ -11,6 +11,17 @@ body {
   background-color: #224162;
 }
 
+.bg-btn-primary {
+  color: #010d19;
+  background-color: #3b5c7b;
+}
+
+.bg-btn-primary:hover {
+  background-color: transparent;
+  border-color: #bcd1f7;
+  color: #bcd1f7;
+}
+
 .title {
   font-size: 45px;
   position: absolute;
@@ -31,7 +42,7 @@ body {
 
 .card:hover {
   background-color: transparent;
-  border: 1px solid #ff4c29;
+  border: 1px solid #3b5c7b;
 }
 
 .bg-icons {
