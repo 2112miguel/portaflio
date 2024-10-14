@@ -1,21 +1,24 @@
 import { Card } from "./Card";
+import imageMusic from '../public/tumusico.png'
+import imageDev from '../public/devtoClon.png'
+import imageK from '../public/chanllegek.png'
 
 const data = [
   {
     title: "TuMusAh",
-    urlImg: "https://storage.googleapis.com/kodemia17js2-ma/tumusico.png",
+    urlImg: imageMusic,
     url: "https://music-app-front-end.vercel.app",
     urlGithub: "https://github.com/Kodemia-MusicApp/MusicApp-FrontEnd",
   },
   {
     title: "Clon DevTo",
-    urlImg: "https://storage.googleapis.com/kodemia17js2-ma/devtoClon.png",
+    urlImg: imageDev,
     url: "https://react-devto-clon.vercel.app",
     urlGithub: "https://github.com/2112miguel/ReactDevtoClon/tree/master",
   },
   {
     title: "Chanllege K",
-    urlImg: "https://storage.googleapis.com/kodemia17js2-ma/chanllegek.png",
+    urlImg: imageK,
     url: "https://challenge-k.vercel.app/",
     urlGithub: "https://github.com/2112miguel/challengeK",
   },

@@ -16,10 +16,7 @@ export const About = () => {
           <article className="col-md-5 col-10">
             <h1 className="fw-bold"> {">"} About</h1>
             <p>
-              {">"} Hi I&apos;m Miguel, Experienced web developer whith 2 years
-              of experience, strong background as engineer support and network
-              for the last 4 years.I studied a bootcamp through 1000+hours,
-              learning javaScript, Node.js, React and MongoDB.
+              {">"} Hi I&apos;m Miguel, .NET professional with over 4 years of experience in .NET full-stack web programming. Proficient in ASP.NET, C#, and SQL Server, with a strong foundation in Angular, NoSQL, SOLID Principles, Object-Oriented Programming (OOP),microservices and relational databases. Adept at managing Windows Server environments and implementing API's. With a background in network engineering, I utilize cloud platforms such as Azure, AWS, and GCP. Holds a Bachelor's degree and a bootcamp certification.
             </p>
           </article>
         </div>

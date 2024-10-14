@@ -16,17 +16,18 @@ export default function Header() {
                     .pauseFor(300)
 
                     .typeString(
-                      "<strong>Portafolio</strong> where I share my ideas"
+                      "<strong>Portafolio</strong> I'm Miguel Angel"
                     )
                     .deleteChars(33)
                     .typeString(
-                      "<strong>space</strong> where I share my projects"
+                      "<strong>I'm</strong> Web Developer"
                     )
                     .pauseFor(1000)
                     .start();
                 }}
                 options={{
-                  delay: 75,
+                  delay: 90,
+                  loop: true,
                 }}
               />
             </h1>

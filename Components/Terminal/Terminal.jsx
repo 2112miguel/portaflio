@@ -11,12 +11,14 @@ const data = [
 export const Terminal = () => {
   return (
     <section>
-      <div className="console">
-        <header>
-          <p>miguel@portafolio</p>
-        </header>
-        <article className="consolebody">
-          <div className="my-2">
+      <div>
+        <div className="fakeMenu">
+          <div className="fakeButtons fakeClose"></div>
+          <div className="fakeButtons fakeMinimize"></div>
+          <div className="fakeButtons fakeZoom"></div>
+        </div>
+        <article className="fakeScreen">
+          <div className="line1">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
@@ -26,24 +28,26 @@ export const Terminal = () => {
               }}
               options={{
                 delay: 50,
+                cursor: ''
               }}
-            />
+            /> 
           </div>
-          <div className="my-2">
+          <div className="line1">
             <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .pauseFor(3500)
-                  .typeString("> portafolio@title:~$ Full Stack Developer")
-                  .changeDelay(1)
-                  .start();
-              }}
-              options={{
-                delay: 50,
-              }}
-            />
+                onInit={(typewriter) => {
+                  typewriter
+                    .pauseFor(3500)
+                    .typeString("> portafolio@title:~$ Full Stack Developer")
+                    .changeDelay(1)
+                    .start();
+                }}
+                options={{
+                  delay: 50,
+                  cursor: ''
+                }}
+              />
           </div>
-          <div className="my-2">
+          <div className="line1">
             <Typewriter
               onInit={(typewriter) => {
                 typewriter
@@ -54,40 +58,26 @@ export const Terminal = () => {
               }}
               options={{
                 delay: 50,
+                cursor: ''
               }}
             />
           </div>
-          <div className="my-2">
+          <div className="line1">
             <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .pauseFor(10350)
-                  .typeString(
-                    "> portafolio@linkedin:~$ miguelanmorenocontreras"
-                  )
-                  .changeDelay(1)
-                  .start();
-              }}
-              options={{
-                delay: 50,
-              }}
-            />
-          </div>
-          <div className="my-2">
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .pauseFor(14000)
-                  .typeString(
-                    "> portafolio@email:~$ miguel.moreno.angel@gmail.com"
-                  )
-                  .changeDelay(1)
-                  .start();
-              }}
-              options={{
-                delay: 50,
-              }}
-            />
+                onInit={(typewriter) => {
+                  typewriter
+                    .pauseFor(10350)
+                    .typeString(
+                      "> portafolio@linkedin:~$ miguelanmorenocontreras"
+                    )
+                    .changeDelay(1)
+                    .start();
+                }}
+                options={{
+                  delay: 50,
+                  cursor: ''
+                }}
+              />
           </div>
         </article>
       </div>
